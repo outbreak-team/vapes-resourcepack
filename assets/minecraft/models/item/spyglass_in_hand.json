@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/spyglass_in_hand",  
+    "overrides": [
+      {"predicate": {"custom_model_data": 10001000}, "model": "item/outbreak/vapes/vapes/vape1"},
+      {"predicate": {"custom_model_data": 10001001}, "model": "item/outbreak/vapes/vapes/vape2"}
+    ]
+  }

@@ -1,0 +1,6 @@
+{
+	"parent": "item/outbreak/vapes/jijas/jija_base",
+	"textures": {
+		"0": "item/outbreak/vapes/jijas/jija_outbreak"
+	}
+}
