@@ -1,11 +1,14 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "minecraft:item/honey_bottle"
+      "layer0": "item/potion_overlay",
+      "layer1": "item/potion"
   },
   "overrides": [
     {"predicate": {"custom_model_data": 10001000}, "model": "item/outbreak/vapes/vapes/vape1"},
     {"predicate": {"custom_model_data": 10001001}, "model": "item/outbreak/vapes/vapes/vape2"},
+    {"predicate": {"custom_model_data": 10001002}, "model": "item/outbreak/vapes/vapes/vape2_secret"},
+    {"predicate": {"custom_model_data": 10001003}, "model": "item/outbreak/vapes/vapes/vape_hqd"},
     {"predicate": {"custom_model_data": 10001100}, "model": "item/outbreak/vapes/jijas/jija_outbreak"},
     {"predicate": {"custom_model_data": 10001101}, "model": "item/outbreak/vapes/jijas/jija_hardcore"}
   ]

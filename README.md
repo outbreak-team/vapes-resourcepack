@@ -12,10 +12,12 @@
 
  CustomModelData | Предметы | Модель
 -|-|-
-`10001000` | `honey_bottle`, `spyglass` | Вэйп #1
-`10001001` | `honey_bottle`, `spyglass` | Вэйп #2
-`10001100` | `honey_bottle` | Жижа OUTBREAK
-`10001101` | `honey_bottle` | Жижа Hardcore
+`10001000` | `potion`, `spyglass` | Вэйп #1
+`10001001` | `potion`, `spyglass` | Вэйп #2
+`10001002` | `potion`, `spyglass` | Вэйп #2 Secret
+`10001003` | `potion`, `spyglass` | Вэйп HQD
+`10001100` | `potion` | Жижа OUTBREAK
+`10001101` | `potion` | Жижа Hardcore
 
 Пример команды:
-`/give @p honey_bottle{CustomModelData:10001000}`
+`/give @p potion{CustomModelData:10001000}`

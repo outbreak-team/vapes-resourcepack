@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/outbreak/vapes/vapes/vape1",
-		"particle": "#0"
+		"0": "item/outbreak/vapes/vapes/vape1"
 	},
 	"elements": [
 		{
@@ -73,10 +72,12 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 3, 0]
+			"translation": [0, 3, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 3, 0]
+			"translation": [0, 3, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_righthand": {
 			"rotation": [-44.5, 115, 25],
@@ -93,15 +94,17 @@
 		},
 		"gui": {
 			"rotation": [0, 129.25, 24],
-			"translation": [2.75, 7.85, 0],
-			"scale": [1.97, 1.97, 1.97]
+			"translation": [2.75, 6.85, 0],
+			"scale": [1.78, 1.78, 1.78]
 		},
 		"head": {
 			"rotation": [90, 0, 0],
 			"translation": [0, -4.25, -6]
 		},
 		"fixed": {
-			"translation": [0, 5, -2]
+			"rotation": [0, -90, 0],
+			"translation": [0, 5, -2.25],
+			"scale": [1.2, 1.2, 1.2]
 		}
 	}
 }

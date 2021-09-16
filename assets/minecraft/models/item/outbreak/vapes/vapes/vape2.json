@@ -2,27 +2,25 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/outbreak/vapes/vapes/vape2",
-		"particle": "#0"
+		"1": "item/outbreak/vapes/vapes/vape2_image"
 	},
 	"elements": [
 		{
-			"name": "Front",
+			"name": "FrontImage",
 			"from": [6.975, 0.3, 6.2],
 			"to": [6.975, 5.7, 9.8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [6.975, 3, 8]},
 			"faces": {
-				"east": {"uv": [12, 6, 16, 12], "texture": "#0"},
-				"west": {"uv": [4, 0, 13, 6], "rotation": 270, "texture": "#0"}
+				"west": {"uv": [0, 0, 8, 12], "texture": "#1"}
 			}
 		},
 		{
-			"name": "Back",
+			"name": "BackImage",
 			"from": [9.001, 0.3, 6.2],
 			"to": [9.001, 5.7, 9.8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9.001, 3, 8]},
 			"faces": {
-				"east": {"uv": [13, 0, 4, 6], "rotation": 90, "texture": "#0"},
-				"west": {"uv": [12, 6, 16, 12], "texture": "#0"}
+				"east": {"uv": [8, 0, 0, 12], "texture": "#1"}
 			}
 		},
 		{
@@ -188,7 +186,7 @@
 		"gui": {
 			"rotation": [0, 129.25, 24],
 			"translation": [2.75, 7.35, 0],
-			"scale": [1.97, 1.97, 1.97]
+			"scale": [1.9, 1.9, 1.9]
 		},
 		"head": {
 			"rotation": [90, 0, 0],
@@ -196,7 +194,8 @@
 		},
 		"fixed": {
 			"rotation": [0, -90, 0],
-			"translation": [0, 10.5, -2]
+			"translation": [0, 5, -2.25],
+			"scale": [1.2, 1.2, 1.2]
 		}
 	},
 	"groups": [
